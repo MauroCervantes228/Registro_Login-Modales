@@ -1,12 +1,12 @@
 "use client"
 import React, { useState } from "react";
-import Login from "./login";
+import Login from "./Login";
 import Register from "./Registro";
 
 const IndexPage = () => {
   const [modalType, setModalType] = useState(null);
 
-  const handleModalClick = (type) => {
+  const handleModalClick = (type: any) => {
     setModalType(type);
   };
 

@@ -2,7 +2,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-const Register = ({ onClose }) => {
+const Register = ({ onClose }: any) => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
